@@ -1,0 +1,97 @@
+body {
+  background-image: url(background_img.jpeg);
+}
+
+.start_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.start_button button {
+  font-size: 30px;
+  font-weight: 400;
+  color: blueviolet;
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.information_box {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  background: rgb(214, 206, 218);
+  border-radius: 5px;
+}
+.information_box .information_title {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid rgb(182, 167, 180);
+  display: flex;
+  align-items: center;
+  padding: 0 35px;
+  font-size: 20px;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.information span {
+  font-weight: 600;
+  color: plum;
+}
+
+.information_list {
+  padding: 15px 35px;
+}
+
+.information {
+  margin: 5px 0;
+  font-size: 17px;
+}
+
+.buttons {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 35px;
+  border-top: 1px solid rgb(182, 167, 180);
+}
+
+.buttons button {
+  margin: 0 5px;
+  height: 40px;
+  width: 100px;
+  border: 1px solid rgb(174, 68, 235);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.buttons button.restart {
+  color: #fff;
+  background: rgb(174, 68, 235);
+}
+
+.buttons button.restart:hover {
+  background: rgb(201, 149, 232);
+}
+
+.buttons button.quit {
+  color: rgb(174, 68, 235);
+}
+
+.buttons button.quit:hover {
+  color: #fff;
+  background: rgb(174, 68, 235);
+}
