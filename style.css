@@ -18,7 +18,7 @@ body {
 
 .start_button button {
   padding: 15px 30px;
-  font-size: 20px;
+  font-size: 50px;
   cursor: pointer;
   color: blueviolet;
 }
